@@ -1,0 +1,112 @@
+body {
+    border: solid black;
+    padding: 5%;
+    margin: 5%;
+}
+
+.selected {
+    background-color: rgb(245, 126, 126);
+}
+
+.notsel {
+    background-color: rgb(137, 137, 239);
+}
+
+.para {
+    margin: 10px 300px 10px 300px;
+    font-size: large;
+}
+a {
+    text-decoration: none;
+}
+
+.btn {
+    font-size: large;
+    width: 100px;  
+    height: 50px;  
+    color: black;
+    margin: 20px 20px;
+}
+.content {
+    width: 500px;  
+    margin: auto;
+}
+
+.calculator {
+    width: 500px;  
+    margin: auto;
+    padding-bottom: 15px;  
+    border-radius: 7px;
+}
+
+.calcbtn {
+    width: 50px;  
+    height: 50px;  
+    background-color: white;  
+    color: black;   
+}
+
+.row {
+    padding: 2px;
+}
+.lastrow {
+    padding-left: 56px;  
+}
+
+.display {
+    width: 300px;  
+    height: 50px;  
+    box-sizing: border-box;  
+    padding: 10px;  
+    font-size: 1rem;  
+    text-align: center;  
+    border-top-left-radius: 7px;  
+    border-top-right-radius: 7px;
+}
+
+.form {
+    width: 500px;  
+    margin: auto;
+    font-size: large;
+}
+
+.signup {
+    height: 30px;
+    margin-left: 50px; 
+    margin-top: 10px;   
+    text-align: center; 
+    font-size: large;
+    border: solid black;
+}
+
+.form label {
+    display: inline-block;
+    width: 40%;
+}
+
+.form input {
+    display: inline-block;
+    width: 50%;
+    margin: 0 0 0 5%;
+}
+
+.form label.lab2 {
+    display: block;
+}
+
+#signbtn {
+    width: 100%;
+    font-size: larger;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#supbtn {
+    width: 150px;
+    height: 50px;
+    border: solid;
+    font-size: large;
+    background-color: white;
+}
